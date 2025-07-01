@@ -1,53 +1,78 @@
 /* ページ全体の背景色 */
 body {
-  background-color: #f0f8ff;
-  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* アクアブルー背景 */
+  font-family: "Helvetica Neue", Arial, sans-serif;
   color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
   text-align: center;
-  padding: 30px;
 }
 
 h1 {
   color: #0066cc;
-  font-size: 2em;
   margin-bottom: 10px;
 }
 
 h2 {
   color: #004080;
-  margin-top: 30px;
+  margin-top: 40px;
+  border-bottom: 2px solid #cce5ff;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 p {
   font-size: 1.1em;
 }
 
-ul {
-  list-style-type: disc;
-  padding-left: 20px;
-  display: inline-block;
-  text-align: left;
-}
-
 table {
+  margin: 20px auto;
   border-collapse: collapse;
-  margin: 0 auto;
-  width: 80%;
-  max-width: 600px;
+  width: 90%;
 }
 
 th, td {
-  border: 1px solid #999;
-  padding: 8px 12px;
+  border: 1px solid #ccc;
+  padding: 12px;
   text-align: left;
 }
 
 th {
-  background-color: #e6f2ff;
+  background-color: #eaf4ff;
+  color: #004080;
 }
 
-img {
-  border-radius: 50%;
+.hobby-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
   margin-top: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
+
+.hobby-item {
+  background-color: #cceeff;
+  color: #003366;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+
+.profile-img {
+  margin-top: 40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}v
