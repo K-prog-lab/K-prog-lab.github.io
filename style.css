@@ -1,0 +1,28 @@
+/* ページ全体の背景色 */
+body {
+  background-color: #f0f8ff;  /* 淡い青（お好みで変更可） */
+  font-family: Arial, sans-serif;
+  color: #333; /* 文字色を落ち着いたグレーに */
+  text-align: center;
+  padding: 30px;
+}
+
+/* タイトル（h1）のデザイン */
+h1 {
+  color: #0066cc;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* 段落（p）のデザイン */
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* プロフィール画像 */
+img {
+  border-radius: 50%; /* 丸くする */
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
